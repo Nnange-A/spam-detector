@@ -5,22 +5,24 @@ body {
 	display: grid;
 	place-content: center;
 	height: 100%;
-	background-color: #666;
+	background-color: black;
+}
+
+h1 {
+	font-family: sans-serif;
 }
 
 #wrapper {
-	border: 1px solid black;
 	text-align: center;
 	width: 400px;
 	padding: 50px;
 }
 
 form {
-	margin-top: 50px;
+	margin-top: 40px;
 	text-align: center;
 	padding: 20px 10px;
 	width: 100%;
-	border: 1px solid black;
 }
 
 #email {
@@ -31,8 +33,6 @@ input {
 	padding: 5px 10px;
 	border-radius: 4px;
 }
-
-imputx
 
 input[type="submit"] {
 	background-color: pink;
